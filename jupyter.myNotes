@@ -1,0 +1,16 @@
+how to install
+https://jupyter.readthedocs.io/en/latest/install.html
+it recommends to install Anaconda:
+For new users, we highly recommend installing Anaconda. 
+Anaconda conveniently installs Python, the Jupyter Notebook, 
+and other commonly used packages for scientific computing and data science.
+
+Anaconda-Navigator  (in Launchpad)
+to launch jypyter server
+
+logon on jupyter client in firefix
+http://localhost:8889
+
+how to configure a password:
+135(wu)
+https://jupyter-notebook.readthedocs.io/en/stable/public_server.html
