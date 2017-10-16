@@ -1,0 +1,59 @@
+JSP:
+http://www.runoob.com/jsp/jsp-tutorial.html
+
+JS:
+http://www.runoob.com/js/js-tutorial.html
+
+CSS:
+http://www.runoob.com/css/css-tutorial.html
+
+======================================
+1. Create a Liberty server
+2. Create a servlet (right click on src directory to create a servlet)
+   and add the following code in DoGet method:
+   protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		response.setContentType("text/html");
+		PrintWriter out = response.getWriter();
+		
+		out.print("<html>");
+		out.print("<head><title>Hello World</title></head>");
+		out.print("<body>");
+		out.print("<h3>Hello World!</h3>");
+		out.print("</body>");
+		out.print("</html>");
+		
+		out.close();   
+	}
+   
+3. Change this web.xml under WebContent/WEB-INF directory
+
+4. From browser: http://localhost:9080/RiverFilesAPI/files
+
+============================
+z/OSMF --working flow
+https://pev183.pok.ibm.com/zosmf/
+
+IzuManagementFacility: project
+-- META-INF
+   -- ibmconfig
+   -- application.xml
+   
+	<module id="WebModule_1225203159265">
+		<web>
+			<web-uri>izugnav.war</web-uri>
+			<context-root>zosmf</context-root>
+		</web>
+
+NavigationService
+-- WebContent
+   -- WEB-INF
+      -- web.xml
+      
+	<welcome-file-list>
+		<welcome-file>NavigationTree.jsp</welcome-file>
+	</welcome-file-list>
+
+--------------------------
+NavigationTree.jsp  --code
+:::::::::::::::
