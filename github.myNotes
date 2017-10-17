@@ -1,3 +1,30 @@
+Github + Eclipse
+
+1. install EGit
+http://www.eclipse.org/egit/download/
+
+Help --> install new software
+http://download.eclipse.org/egit/updates
+
+2. EGit user guide
+http://wiki.eclipse.org/EGit/User_Guide#Overview
+
+
+For RAD: (eclipse is little old)
+If you cannot upgrade to newer eclipse, because of corporate environment for instance, you can install older EGit version, the upgrade is not revolutionary.
+Looks like you are installing from eclipse marketplace. 
+
+Try installing through "Help->Install New Software.."
+use "http://download.eclipse.org/egit/updates-2.1" in update site. it will give you older version of egit that is compatible with Helios.
+
+Make sure to uncheck "Egit plug-in Import Support" - it is not compatible with Helios
+
+About the other items in list you could easily google about Jgit and Egit relationship and about mylyn and its features
+
+Hope this helps
+
+
+===========================================
 1.
 user: jriver19
 email: qq.com
